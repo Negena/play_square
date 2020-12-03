@@ -2,7 +2,7 @@ require 'ruby2d'
 
 Text.new('Welcome To My Game', size:30 , color: 'green')
 
-song = Music.new('/home/azizhon/music/Ссылка на 3_Lorde-Homemade_Dynamite.mp3')
+song = Music.new('show_them.mp3')
 song.play
 
 @square = Square.new(x: 10 , y:80, size: 20 , color:'green')
